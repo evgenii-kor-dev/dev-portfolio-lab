@@ -1,0 +1,39 @@
+{
+  "name": "dev-portfolio-lab",
+  "version": "0.1.0",
+  "description": "Проект-портфолио",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Evgenii Korchagin <zhenek-com-post@mail.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evgenii-kor-dev/dev-portfolio-lab"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=11.0.0"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "ts-loader": "9.5.2",
+    "typescript": "5.8.3",
+    "webpack": "5.100.2",
+    "webpack-cli": "6.0.1"
+  },
+  "scripts": {
+    "start": "echo 'Configure build scripts later'",
+    "build": "webpack",
+    "test": "echo 'Configure tests later'"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
