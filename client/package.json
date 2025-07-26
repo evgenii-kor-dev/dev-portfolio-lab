@@ -13,6 +13,11 @@
     "node": ">=22.0.0",
     "npm": ">=11.0.0"
   },
+  "scripts": {
+    "start": "echo 'Configure build scripts later'",
+    "build": "webpack",
+    "test": "echo 'Configure tests later'"
+  },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0"
@@ -20,15 +25,12 @@
   "devDependencies": {
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
+    "css-loader": "7.1.2",
+    "style-loader": "4.0.0",
     "ts-loader": "9.5.2",
     "typescript": "5.8.3",
     "webpack": "5.100.2",
     "webpack-cli": "6.0.1"
-  },
-  "scripts": {
-    "start": "echo 'Configure build scripts later'",
-    "build": "webpack",
-    "test": "echo 'Configure tests later'"
   },
   "browserslist": [
     "> 0.5%",
