@@ -1,4 +1,5 @@
 export function getElement(text: string) {
+  console.warn("create elements");
   const element = document.createElement("div");
   element.innerHTML = text;
 
