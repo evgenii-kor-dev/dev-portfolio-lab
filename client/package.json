@@ -1,0 +1,12 @@
+{
+  "name": "dev-platform-lab-client",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Evgenii Korchagin",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
