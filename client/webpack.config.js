@@ -5,10 +5,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default {
-  entry: './src/index.js',
+  entry: './src/index.ts',
   mode: 'production',
   output: {
     filename: 'main.js',
     path: resolve(__dirname, 'dist'),
   },
+  resolve: {
+    extensions: ['.ts', '...'],
+  },
+  module: {
+    rules: [
+      { test: /\.ts$/, loader: "ts-loader" }
+    ]
+  }
 };
